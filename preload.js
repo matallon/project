@@ -48,7 +48,7 @@ function preload(){
     house3 = loadImage('assets/houses/house3simple.png');
     house1roof = loadImage('assets/houses/house1simpleroof.png')
     brokenhouseback = loadImage('assets/houses/brokenhouseback.png')
-    brokenhousefront = loadImage('assets/houses/brokenhousefront.png')
+    brokenhousefront = loadImage('assets/houses/brokenhouseFront.png')
     
     //tents
     tent1 = loadImage('assets2/tents/tent1.PNG');
