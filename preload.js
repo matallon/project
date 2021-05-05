@@ -1,6 +1,6 @@
 function preload(){
     background = loadImage('assets/map/filledoutmap.png');
-    minimap = loadImage'minimap.png');
+    minimap = loadImage('minimap.png');
     seaoverlay = loadImage('assets/map/sea.png');
 
     sea1 = loadImage('assets/map/seaanimation/layer1.png')
