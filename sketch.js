@@ -352,7 +352,7 @@ function draw()
    
     if(openMap == true){
         image(minimap,320,20,727,570,0,0,6449,6000)
-    }-
+    }
 
         
     // ~~~walking navigation and movement~~~
