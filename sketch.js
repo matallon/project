@@ -80,7 +80,7 @@ function draw()
     walkAnimation();
     
     if(openMap == true){
-        image(background,320,20,727,570,0,0,6449,6000)
+        image(minimap,320,20,727,570,0,0,6449,6000)
     }-
 
     colorMode(RGB);
@@ -349,6 +349,11 @@ function draw()
     }
 
     pop();
+   
+    if(openMap == true){
+        image(minimap,320,20,727,570,0,0,6449,6000)
+    }-
+
         
     // ~~~walking navigation and movement~~~
     gameCharX = mainCharX - scrollPosX;
